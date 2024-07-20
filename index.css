@@ -1,17 +1,19 @@
 body {
     margin: 0;
+    font-family: "Smythe", sans-serif;
 } 
 *{
     margin:0;
     border: red 1 px solid;
 }
+
+/* ---header--- */
 header{
     background-image: url("./imgs/main.png");
     margin-bottom: 20px;
     padding: 4%;
     color: #FFFFFF;
     background-size: cover;
-    font-family: "Smythe", sans-serif;
 }
 
 header h1{
@@ -22,3 +24,44 @@ header h2{
     font-size: 20px;
     margin-bottom: 15px;
 }
+
+/* ---Main--- */
+main{
+    margin-left: 40px;
+}
+
+.pizza{
+    display: flex;
+}   
+
+.pizza img{
+    width: 80px;
+    height: 80px;
+}
+
+.text{
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+h3{
+     color: #8B8B8B;
+     margin: 5px auto;
+}
+
+p{
+    padding: 20px;
+    border: 1px solid #8B8B8B;
+    border-radius: 50%;
+    margin: 20px 0 20px 200px;
+    height: 5px;
+    width: 5px;
+    text-align: center;
+    line-height: 2px;
+}   
+
+hr{
+    margin: 30px auto;
+    color: #8B8B8B;
+}   
+    
